@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "iot-central-backend"
+version = "0.1.0"
+description = ""
+authors = ["Rohan Russel Nedungadi <nrogun@gmail.com>"]
+readme = "README.md"
+packages = [{include = "iot_central_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.11"
+flask = "^2.2.3"
+opencv-python = "^4.7.0.72"
+matplotlib = "^3.7.0"
+cvlib = "^0.2.7"
+tensorflow = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

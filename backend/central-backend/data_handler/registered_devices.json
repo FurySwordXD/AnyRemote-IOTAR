@@ -1,0 +1,57 @@
+{
+    "devices": [
+        {
+            "id": "1",
+            "device_info": {
+                "device_name": "Living Room TV",
+                "device_type": "tv",
+                "device_fingerprint": {
+                    "rssi": -48,
+                    "image_embed": "random"
+                },
+                "device_status":"inactive",
+                "actions":{
+                    "on":"http://192.168.50.178:6001/actions/on",
+                    "off":"http://192.168.50.178:6001/actions/off"
+                }
+
+                
+            }
+        },
+        {
+            "id": "2",
+            "device_info": {
+                "device_name": "Bedroom TV",
+                "device_type": "tv",
+                "device_fingerprint": {
+                    "rssi": -40,
+                    "image_embed": "random"
+                },
+                "device_status":"inactive",
+                "actions":{
+                    "on":"http://192.168.50.178:6001/actions/on",
+                    "off":"http://192.168.50.178:6001/actions/off"
+                }
+            }
+            
+        },
+        {
+            "id": "3",
+            "device_info": {
+                "device_name": "Hall Light",
+                "device_type": "bowl",
+                "device_fingerprint": {
+                    "rssi": -48,
+                    "image_embed": "random"
+                },
+                "device_status":"inactive",
+                "actions":{
+                    "on":"http://192.168.50.178:7001/actions/on",
+                    "off":"http://192.168.50.178:7001/actions/off"
+                }
+            }
+            
+        }
+        
+    ]
+}
