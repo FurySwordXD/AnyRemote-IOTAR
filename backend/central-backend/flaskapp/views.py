@@ -7,7 +7,9 @@ import base64
 from PIL import Image
 
 
-from object_detection.test_script import object_detection
+# from object_detection.test_script import object_detection
+from object_detection.yolo_test_script import object_detection
+
 
 @app.route("/")
 def hello_world():
@@ -83,9 +85,10 @@ def get_registered_object():
         if(len(detections["label"])==0):
             return jsonify({"status":"fail"})
 
-        print("HERE")
         device_type = detections["label"][0]
         device_data = db.compare_device(device_type,int(rssi))
+
+        device_data["bbox"] = detections["bbox"] 
 
         print(device_data)
  

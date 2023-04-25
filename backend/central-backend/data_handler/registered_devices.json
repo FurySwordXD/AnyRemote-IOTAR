@@ -51,6 +51,23 @@
                 }
             }
             
+        },
+        {
+            "id": "4",
+            "device_info": {
+                "device_name": "Pi Car",
+                "device_type": "pi_car",
+                "device_fingerprint": {
+                    "rssi": -33,
+                    "image_embed": "random"
+                },
+                "device_status":"inactive",
+                "actions":{
+                    "on":"http://192.168.50.178:7001/actions/on",
+                    "off":"http://192.168.50.178:7001/actions/off"
+                }
+            }
+            
         }
         
     ]

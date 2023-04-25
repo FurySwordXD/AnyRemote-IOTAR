@@ -8,9 +8,9 @@ import os, signal
 
 from PIL import Image
 # from .screen import FLAG
-import pyautogui
+# import pyautogui
 
-import keyboard
+# import keyboard
 
 from multiprocessing.connection import Client
 import threading

@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "build": "cd android && ./gradlew app:assembleRelease && mv app/build/outputs/apk/release/app-release.apk  ../app-release.apk",
+    "build": "cd android && ./gradlew.bat app:assembleRelease && mv app/build/outputs/apk/release/app-release.apk  ../app-release.apk",
     "test": "jest",
     "postinstall": "patch-package"
   },
